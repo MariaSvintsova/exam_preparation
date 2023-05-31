@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   api:
-    image: mariyasv/exam_preparation
+    image: mariyasv/exam_preparation:$GITHUB_REF_NAME-$GITHUB_RUN_ID
     ports:
       - 80:80
     volumes:
