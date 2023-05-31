@@ -12,7 +12,7 @@ Endpoints:
 - GET /notes/<note_id> : Retrieves a specific note by its ID
 - POST /notes : Creates a new note
 - PUT /notes/<note_id> : Updates an existing note
-- DELETE /notes/<note_id> : Deletes a note
+- DELETE /notes/<note_id> : Deletes a note.
 
 Models:
 - Note : Represents a note in the database
